@@ -4,6 +4,7 @@ import "./App.css";
 import UseStateComponent from "./hooksComponent/useStateComponent";
 import UseInputComponent from "./hooksComponent/useInputComponent";
 import UseTabsComponent from "./hooksComponent/useTabsComponent";
+import UseEffectComponent from "./hooksComponent/useEffectComponent";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <UseStateComponent />
             <UseInputComponent />
             <UseTabsComponent />
+            <UseEffectComponent />
         </div>
     );
 }
