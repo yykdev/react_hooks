@@ -29,6 +29,14 @@
 const [count, setCount] = useState(0);
 ```
 
-## 커스텀 Hooks : useInput
+## 커스텀 Hooks
 
--   여러 Input 컴포넌트의 비슷한 기능을 공유 할 때 커스텀 Hook을 만들어 로직의 재사용을 할 수 있음.
+-   useState 를 모듈화 하여 여러 컴포넌트의 비슷한 기능을 공유 할 때 커스텀 Hook을 만들어 로직의 재사용성을 강화 할 수 있다.
+
+### useInput
+
+-   여러 Input을 관리 하기 위한 커스텀 Hook
+
+### useTabs
+
+-   탭기능 구현을 위한 커스텀 Hook
