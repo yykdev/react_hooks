@@ -95,3 +95,7 @@ const [count, setCount] = useState(0);
 ### [useTabs](./src/hooksComponent/useTabsComponent.js)
 
 -   탭기능 구현을 위한 커스텀 Hook
+
+### [useTitle](./src/hooksComponent/useTitleComponent.js)
+
+-   useEffect를 활용한 title 변경 Hook

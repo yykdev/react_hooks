@@ -4,7 +4,8 @@ import "./App.css";
 import UseStateComponent from "./hooksComponent/useStateComponent";
 import UseInputComponent from "./hooksComponent/useInputComponent";
 import UseTabsComponent from "./hooksComponent/useTabsComponent";
-import UseEffectComponent from "./hooksComponent/useEffectComponent";
+// import UseEffectComponent from "./hooksComponent/useEffectComponent";
+import UseTitleComponent from "./hooksComponent/useTitleComponent";
 
 function App() {
     return (
@@ -12,7 +13,8 @@ function App() {
             <UseStateComponent />
             <UseInputComponent />
             <UseTabsComponent />
-            <UseEffectComponent />
+            {/* <UseEffectComponent /> */}
+            <UseTitleComponent />
         </div>
     );
 }
