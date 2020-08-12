@@ -2,7 +2,7 @@
 
 -   [x] [useState](#useState)
 -   [x] [useEffect](#useEffect)
--   [ ] useTitle
+-   [x] [useTitle](#useTitle)
 -   [x] [useInput](#useInput)
 -   [ ] usePageLeave
 -   [ ] useClick
