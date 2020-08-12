@@ -5,7 +5,8 @@ import UseStateComponent from "./hooksComponent/useStateComponent";
 import UseInputComponent from "./hooksComponent/useInputComponent";
 import UseTabsComponent from "./hooksComponent/useTabsComponent";
 // import UseEffectComponent from "./hooksComponent/useEffectComponent";
-import UseTitleComponent from "./hooksComponent/useTitleComponent";
+// import UseTitleComponent from "./hooksComponent/useTitleComponent";
+import UseClickComponent from "./hooksComponent/useClickComponent";
 
 function App() {
     return (
@@ -14,7 +15,8 @@ function App() {
             <UseInputComponent />
             <UseTabsComponent />
             {/* <UseEffectComponent /> */}
-            <UseTitleComponent />
+            {/* <UseTitleComponent /> */}
+            <UseClickComponent />
         </div>
     );
 }
