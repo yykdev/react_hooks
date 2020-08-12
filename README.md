@@ -1,6 +1,6 @@
 # React Hooks
 
--   [ O ] useState
+-   [x] useState
 -   [ ] useEffect
 -   [ ] useTitle
 -   [ ] useInput
