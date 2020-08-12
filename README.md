@@ -5,7 +5,7 @@
 -   [x] [useTitle](#useTitle)
 -   [x] [useInput](#useInput)
 -   [ ] usePageLeave
--   [ ] useClick
+-   [x] [useClick](#useClick)
 -   [ ] useFadeIn
 -   [ ] useFullscreen
 -   [ ] useHover
