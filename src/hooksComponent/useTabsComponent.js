@@ -32,7 +32,7 @@ const UseTabsComponent = () => {
         <div>
             <div>
                 {content.map((section, index) => (
-                    <button onClick={() => changeItem(index)}>
+                    <button key={index} onClick={() => changeItem(index)}>
                         {section.tab}
                     </button>
                 ))}
