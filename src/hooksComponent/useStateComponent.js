@@ -6,12 +6,12 @@ const UseStateComponent = () => {
     const decreament = () => setCount(count - 1);
 
     return (
-        <>
+        <div>
             <h1>Hello {count}</h1>
             <h2>Start editing to see some magic happen!</h2>
             <button onClick={increament}>Icreament</button>
             <button onClick={decreament}>Decreament</button>
-        </>
+        </div>
     );
 };
 
